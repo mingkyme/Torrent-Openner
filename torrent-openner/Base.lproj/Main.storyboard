@@ -61,7 +61,7 @@
                         <outlet property="delegate" destination="Voe-Tx-rLC" id="PrD-fu-P6m"/>
                     </connections>
                 </application>
-                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="Torrent_Openner" customModuleProvider="target"/>
+                <customObject id="Voe-Tx-rLC" customClass="AppDelegate" customModule="torrent_opener" customModuleProvider="target"/>
                 <customObject id="YLy-65-1bz" customClass="NSFontManager"/>
                 <customObject id="Ady-hI-5gd" userLabel="First Responder" customClass="NSResponder" sceneMemberID="firstResponder"/>
             </objects>
@@ -91,7 +91,7 @@
         <!--torrent-opener-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="torrent-opener" id="XfG-lQ-9wD" customClass="ViewController" customModule="Torrent_Openner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="torrent-opener" id="XfG-lQ-9wD" customClass="ViewController" customModule="torrent_opener" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="623" height="270"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
