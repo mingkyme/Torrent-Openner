@@ -1,4 +1,4 @@
-# torrent opener
+# torrent opener
 
 ## 개요
 
