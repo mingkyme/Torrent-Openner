@@ -15,12 +15,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		AAEB627B2764AB4A005FEA74 /* Torrent-Openner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Torrent-Openner.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAEB627B2764AB4A005FEA74 /* torrent-opener.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "torrent-opener.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AAEB627E2764AB4A005FEA74 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		AAEB62802764AB4A005FEA74 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		AAEB62822764AB4C005FEA74 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AAEB62852764AB4C005FEA74 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		AAEB62872764AB4C005FEA74 /* Torrent-Openner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Torrent-Openner.entitlements; sourceTree = "<group>"; };
+		AAEB62872764AB4C005FEA74 /* torrent-openner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = "torrent-openner.entitlements"; sourceTree = "<group>"; };
 		AAEB628D2764AD3C005FEA74 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -39,7 +39,7 @@
 		AAEB62722764AB49005FEA74 = {
 			isa = PBXGroup;
 			children = (
-				AAEB627D2764AB4A005FEA74 /* Torrent-Openner */,
+				AAEB627D2764AB4A005FEA74 /* torrent-openner */,
 				AAEB627C2764AB4A005FEA74 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -47,12 +47,12 @@
 		AAEB627C2764AB4A005FEA74 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				AAEB627B2764AB4A005FEA74 /* Torrent-Openner.app */,
+				AAEB627B2764AB4A005FEA74 /* torrent-opener.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		AAEB627D2764AB4A005FEA74 /* Torrent-Openner */ = {
+		AAEB627D2764AB4A005FEA74 /* torrent-openner */ = {
 			isa = PBXGroup;
 			children = (
 				AAEB628D2764AD3C005FEA74 /* Info.plist */,
@@ -60,17 +60,17 @@
 				AAEB62802764AB4A005FEA74 /* ViewController.swift */,
 				AAEB62822764AB4C005FEA74 /* Assets.xcassets */,
 				AAEB62842764AB4C005FEA74 /* Main.storyboard */,
-				AAEB62872764AB4C005FEA74 /* Torrent-Openner.entitlements */,
+				AAEB62872764AB4C005FEA74 /* torrent-openner.entitlements */,
 			);
-			path = Torrent-Openner;
+			path = "torrent-openner";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		AAEB627A2764AB4A005FEA74 /* Torrent-Openner */ = {
+		AAEB627A2764AB4A005FEA74 /* torrent-opener */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = AAEB628A2764AB4C005FEA74 /* Build configuration list for PBXNativeTarget "Torrent-Openner" */;
+			buildConfigurationList = AAEB628A2764AB4C005FEA74 /* Build configuration list for PBXNativeTarget "torrent-opener" */;
 			buildPhases = (
 				AAEB62772764AB4A005FEA74 /* Sources */,
 				AAEB62782764AB4A005FEA74 /* Frameworks */,
@@ -80,12 +80,12 @@
 			);
 			dependencies = (
 			);
-			name = "Torrent-Openner";
+			name = "torrent-opener";
 			packageProductDependencies = (
 				AA7064B92764E48200F9195D /* Transmission */,
 			);
-			productName = Torrent-Openner;
-			productReference = AAEB627B2764AB4A005FEA74 /* Torrent-Openner.app */;
+			productName = "torrent-openner";
+			productReference = AAEB627B2764AB4A005FEA74 /* torrent-opener.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -103,7 +103,7 @@
 					};
 				};
 			};
-			buildConfigurationList = AAEB62762764AB49005FEA74 /* Build configuration list for PBXProject "Torrent-Openner" */;
+			buildConfigurationList = AAEB62762764AB49005FEA74 /* Build configuration list for PBXProject "torrent-opener" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -119,7 +119,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				AAEB627A2764AB4A005FEA74 /* Torrent-Openner */,
+				AAEB627A2764AB4A005FEA74 /* torrent-opener */,
 			);
 		};
 /* End PBXProject section */
@@ -280,14 +280,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Torrent-Openner/Torrent-Openner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "torrent-openner/torrent-openner.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW2MC5SS4Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Torrent-Openner/Info.plist;
+				INFOPLIST_FILE = "torrent-openner/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -296,7 +296,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mingky.me.torrent-openner";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingky.me.torrent-opener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -308,14 +308,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_ENTITLEMENTS = Torrent-Openner/Torrent-Openner.entitlements;
+				CODE_SIGN_ENTITLEMENTS = "torrent-openner/torrent-openner.entitlements";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = ZW2MC5SS4Z;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_HARDENED_RUNTIME = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = Torrent-Openner/Info.plist;
+				INFOPLIST_FILE = "torrent-openner/Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				INFOPLIST_KEY_NSMainStoryboardFile = Main;
 				INFOPLIST_KEY_NSPrincipalClass = NSApplication;
@@ -324,7 +324,7 @@
 					"@executable_path/../Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "mingky.me.torrent-openner";
+				PRODUCT_BUNDLE_IDENTIFIER = "mingky.me.torrent-opener";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -334,7 +334,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		AAEB62762764AB49005FEA74 /* Build configuration list for PBXProject "Torrent-Openner" */ = {
+		AAEB62762764AB49005FEA74 /* Build configuration list for PBXProject "torrent-opener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAEB62882764AB4C005FEA74 /* Debug */,
@@ -343,7 +343,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		AAEB628A2764AB4C005FEA74 /* Build configuration list for PBXNativeTarget "Torrent-Openner" */ = {
+		AAEB628A2764AB4C005FEA74 /* Build configuration list for PBXNativeTarget "torrent-opener" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				AAEB628B2764AB4C005FEA74 /* Debug */,

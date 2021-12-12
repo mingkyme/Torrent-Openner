@@ -11,11 +11,11 @@
                 <application id="hnw-xV-0zn" sceneMemberID="viewController">
                     <menu key="mainMenu" title="Main Menu" systemMenu="main" id="AYu-sK-qS6">
                         <items>
-                            <menuItem title="Torrent-Openner" id="1Xt-HY-uBw">
+                            <menuItem title="torrent-opener" id="1Xt-HY-uBw">
                                 <modifierMask key="keyEquivalentModifierMask"/>
-                                <menu key="submenu" title="Torrent-Openner" systemMenu="apple" id="uQy-DD-JDr">
+                                <menu key="submenu" title="torrent-opener" systemMenu="apple" id="uQy-DD-JDr">
                                     <items>
-                                        <menuItem title="About Torrent-Openner" id="5kV-Vb-QxS">
+                                        <menuItem title="About torrent-opener" id="5kV-Vb-QxS">
                                             <modifierMask key="keyEquivalentModifierMask"/>
                                             <connections>
                                                 <action selector="orderFrontStandardAboutPanel:" target="Ady-hI-5gd" id="Exp-CZ-Vem"/>
@@ -29,7 +29,7 @@
                                             <menu key="submenu" title="Services" systemMenu="services" id="hz9-B4-Xy5"/>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="4je-JR-u6R"/>
-                                        <menuItem title="Hide Torrent-Openner" keyEquivalent="h" id="Olw-nP-bQN">
+                                        <menuItem title="Hide torrent-opener" keyEquivalent="h" id="Olw-nP-bQN">
                                             <connections>
                                                 <action selector="hide:" target="Ady-hI-5gd" id="PnN-Uc-m68"/>
                                             </connections>
@@ -47,7 +47,7 @@
                                             </connections>
                                         </menuItem>
                                         <menuItem isSeparatorItem="YES" id="kCx-OE-vgT"/>
-                                        <menuItem title="Quit Torrent-Openner" keyEquivalent="q" id="4sb-4s-VLi">
+                                        <menuItem title="Quit torrent-opener" keyEquivalent="q" id="4sb-4s-VLi">
                                             <connections>
                                                 <action selector="terminate:" target="Ady-hI-5gd" id="Te7-pn-YzF"/>
                                             </connections>
@@ -71,7 +71,7 @@
         <scene sceneID="R2V-B0-nI4">
             <objects>
                 <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
-                    <window key="window" title="Torrent-Openner" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
+                    <window key="window" title="torrent-opener" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" restorable="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" rightStrut="YES" topStrut="YES" bottomStrut="YES"/>
                         <rect key="contentRect" x="196" y="240" width="480" height="270"/>
@@ -88,10 +88,10 @@
             </objects>
             <point key="canvasLocation" x="75" y="250"/>
         </scene>
-        <!--Torrent-Openner-->
+        <!--torrent-opener-->
         <scene sceneID="hIz-AP-VOD">
             <objects>
-                <viewController title="Torrent-Openner" id="XfG-lQ-9wD" customClass="ViewController" customModule="Torrent_Openner" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController title="torrent-opener" id="XfG-lQ-9wD" customClass="ViewController" customModule="Torrent_Openner" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" id="m2S-Jp-Qdl">
                         <rect key="frame" x="0.0" y="0.0" width="623" height="270"/>
                         <autoresizingMask key="autoresizingMask" flexibleMinY="YES"/>
